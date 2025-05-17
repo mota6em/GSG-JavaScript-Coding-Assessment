@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(113, 114, 40);
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+.quotesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+}
+li{
+    color: aliceblue;
+    text-align: start;
+    font-size: 20px;
+    padding-top: 5px;
+}
